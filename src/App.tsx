@@ -5,7 +5,9 @@ import TwoColumnPage from './pages/TwoColumnPage';
 import AccordionPage from './pages/AccordionPage';
 
 const theme = createTheme({
-  // You can customize the theme here
+  palette: {
+    mode: 'dark',
+  },
 });
 
 function App() {
